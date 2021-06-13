@@ -786,13 +786,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline: none; 
 }
 
-.modal-form-input:focus+.modal-form-icon{
-  fill: var(--accent-color);
-}
-
 .modal-form-input:hover{
   cursor: pointer;
   outline: none;
+}
+
+.modal-form-input:focus+.modal-form-icon{
+  fill: var(--accent-color);
 }
 
 .modal-form-field{
