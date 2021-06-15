@@ -851,8 +851,9 @@ letter-spacing: 0.03em;
   content: "";
   width: 16px;
   height: 15px;
+  border: 1px solid;
+  border-color: var(--text-grey-color);
   border-radius: 2px;
-  background-color:var(--accent-color);
   margin-right: 7px;
 }
 
@@ -885,5 +886,9 @@ letter-spacing: 0.03em;
 
 .modal-form-checkbox-policy-link{
   color: var(--accent-color);
+}
+
+.modal-form-checkbox:focus+.modal-form-checkbox-policy::before{
+  border-color: var(--accent-color);
 }
 
